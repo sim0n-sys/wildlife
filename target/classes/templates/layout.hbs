@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{#block "title"}}Wildlife Tracker{{/block}}</title>
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <script src="/js/jquery.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<header id="header" class="header-transparent">
+<div class="container d-flex align-items-center justify-content-between">
+
+
+    <button class="nav-link btn btn-outline-light waves-effect" href="/">Home</button>
+
+    <button type="button" class="btn btn-outline-light waves-effect nav-link dropdown-toggle" href="/" id="viewDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View<i class="fas fa-mask"></i></button>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/view/rangers">Ranger</a>
+                    <a class="dropdown-item" href="/view/animals">Animal</a>
+                    <a class="dropdown-item" href="/view/locations">Location</a>
+
+                </div>
+                <li class="nav-item dropdown">
+                    <button type="button" class="btn btn-outline-light waves-effect nav-link dropdown-toggle" href="/" id="viewDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Create<i class="fas fa-mask"></i></button>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/create/ranger">Ranger</a>
+                        <a class="dropdown-item" href="/create/animal">Animal</a>
+                        <a class="dropdown-item" href="/create/location">Location</a>
+                    </div>
+                </li>
+
+
+</div>
+</header>
+
+
+    <div class="main-content">
+        {{#block "content"}}
+        {{/block}}
+
+    </div>
+
+<!--end main template-->
+{{#block "footer"}}
+    </body>
+    </html>
+{{/block}}

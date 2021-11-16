@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: SightingsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 4.585 sec <<< FAILURE! - in SightingsTest
+findSightingByID(SightingsTest)  Time elapsed: 0.981 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+
+createInstanceOfSightingsClass_true(SightingsTest)  Time elapsed: 0.506 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+
+deleteAll(SightingsTest)  Time elapsed: 1.009 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+
+allInstancesAreSaved(SightingsTest)  Time elapsed: 0.992 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+
+deleteSightingByID(SightingsTest)  Time elapsed: 1.094 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+Caused by: org.postgresql.util.PSQLException: FATAL: no pg_hba.conf entry for host "41.212.27.103", user "whtuwmcqjwinns", database "d7ufipe1qmaj7r", SSL off
+

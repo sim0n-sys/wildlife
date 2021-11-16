@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: AnimalsTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 20.198 sec <<< FAILURE! - in AnimalsTest
+findByIdReturnsCorrectInfo(AnimalsTest)  Time elapsed: 3.002 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
+deleteAllEntries(AnimalsTest)  Time elapsed: 1.856 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
+ensureNameFieldCannotBeEmpty(AnimalsTest)  Time elapsed: 1.369 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
+allInstancesAreSaved(AnimalsTest)  Time elapsed: 3.874 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
+deleteById(AnimalsTest)  Time elapsed: 4.189 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
+testInstanceOfAnimalsClass_true(AnimalsTest)  Time elapsed: 1.395 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
+ensureEntryIsUpdatedCorrectly(AnimalsTest)  Time elapsed: 4.512 sec  <<< ERROR!
+org.sql2o.Sql2oException: 
+Could not acquire a connection from DataSource - FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+Caused by: org.postgresql.util.PSQLException: 
+FATAL: no pg_hba.conf entry for host "197.237.130.216", user "
+gqolqzxnoggkco", database "d7ahf3qn69ju0m", SSL off
+
