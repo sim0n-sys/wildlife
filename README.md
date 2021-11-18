@@ -1,7 +1,8 @@
 ## wildlife
 
-This is a responsive multi page website which will be used to accurately track wildlife in a park which wiil help park rangers know the conditions of the animals
-either sick or healthy.
+Wildlife Tracker is an app that allows one to records of various animal,It allows one to create rangers,locations and animals . It also allows you to view rangers locations, and animals. Using this fetures the application helps to track and moniter animals.  
+
+
 
 ## ATHOR
 Simon Mungai Njoroge- This project was completed as part of Code Moringa Mentored Online Full Stack Web Development course in 2021.
