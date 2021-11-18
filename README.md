@@ -1,4 +1,5 @@
-##wildlife
+## wildlife
+
 This is a responsive multi page website which will be used to accurately track wildlife in a park which wiil help park rangers know the conditions of the animals
 either sick or healthy.
 
@@ -11,6 +12,13 @@ Technologies used are as follows
 * CSS
 * java 
 * Handlebars
+## Database.
+* CREATE DATABASE wildlife_tracker;
+* \c wildlife_tracker
+* CREATE TABLE animals (id serial PRIMARY KEY, name varchar,type VARCHAR,health VARCHAR,age VARCHAR);
+* CREATE TABLE locations (id serial PRIMARY KEY,name VARCHAR);
+* CREATE TABLE rangers (id serial PRIMARY KEY,name VARCHAR,badge_number VARCHAR);
+* CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker;
 
 
 ## contact details
