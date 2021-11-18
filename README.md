@@ -1,6 +1,6 @@
 ## wildlife
 
-Wildlife Tracker is an app that allows one to records of various animal,It allows one to create rangers,locations and animals . It also allows you to view rangers locations, and animals. Using this fetures the application helps to track and moniter animals.  
+Wildlife Tracker is an app that allows one to records of various animal,It allows one to create rangers,locations and animals . It also allows you to view rangers locations, and animals. Using this fetures the application helps to track and moniter animals in there enviroment.  
 
 
 
